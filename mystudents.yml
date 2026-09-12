@@ -1,0 +1,22 @@
+---
+-mystudents:
+ - name: raju
+   phno: 7478599939
+   address:
+       doorno: 234
+       streetno: 11
+       pincode: 6537829
+
+ - name: rani
+   phno: 9837748499
+   address:
+       doorno: 235
+       streetno: 41
+       pincode: 6337829
+
+ - name: akash
+   phno: 93728894382
+   address:
+        doorno: 235
+        streetno: 41
+        pincode: 6337829
