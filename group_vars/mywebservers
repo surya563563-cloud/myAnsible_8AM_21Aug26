@@ -1,0 +1,5 @@
+---
+var1: value1
+key1: value2
+mywebpackonubuntu: apache2
+mywebpackonRedhat: httpd

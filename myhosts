@@ -10,8 +10,3 @@
 172.31.22.28
 172.31.23.28
 
-[mywebservers:vars]
-var1=value1
-key1=value2
-mywebpackonubuntu= apache2
-mywebpackonRedhat= httpd
