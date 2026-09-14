@@ -4,11 +4,11 @@
   tasks:
    - name: install java on debian nodes(apt-get install xxxxx)
      apt:
-       name: "{{ myjavapackgeonubuntu }}"
+       name: "{{ myjavapacakgeonubuntu }}"
        state: present 
      when: ansible_os_family == "Debian"
    - name: install java on redhat nodes(yum install xxxxx) 
      yum:
-       name: "{{ myjavapackgeonRedhat }}"
+       name: "{{ myjavapacakgeonRedhat }}"
        state: present
      when: ansible_os_family == "RedHat"
