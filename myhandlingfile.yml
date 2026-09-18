@@ -7,3 +7,7 @@
       apt:
        name: apache2
        state: present
+    - name: create a folder
+      file:
+         state: directory
+         name: /home/suri/myfolder 
