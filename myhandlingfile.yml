@@ -11,3 +11,7 @@
       file:
          state: directory
          path: /home/suri/myfolder 
+    - name: copy my static file into nodes side 
+      copy:
+        src: mystaticfile
+        des: /home/suri/myfolder
