@@ -1,4 +1,4 @@
 - name: create a file
   file:
-    path: /home/suri/test.text
+    path: /home/suri/test.txt
     state: touch
