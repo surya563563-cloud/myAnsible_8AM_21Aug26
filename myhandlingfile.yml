@@ -16,6 +16,6 @@
         src: mystaticfile
         dest: /home/suri/myfolder
     - name: copy myindex.j2 into nodeside
-      templete:
+      template:
           src: myindex.j2
           dest: /var/www/html/index.html
