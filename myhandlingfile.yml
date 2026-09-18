@@ -14,4 +14,4 @@
     - name: copy my static file into nodes side 
       copy:
         src: mystaticfile
-        des: /home/suri/myfolder
+        dest: /home/suri/myfolder
