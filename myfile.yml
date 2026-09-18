@@ -1,0 +1,4 @@
+- name: create a file
+  file:
+    path: /home/suri/test.text
+    state: touch
