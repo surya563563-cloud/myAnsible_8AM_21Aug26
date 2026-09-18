@@ -7,20 +7,24 @@
       apt:
        name: apache2
        state: present
-    - nostify: restartwebserver   
+      nostify: restartwebserver   
+
     - name: i want to  create a folder
       file:
          state: directory
          path: /home/suri/myfolder 
+
     - name: copy my static file into nodes side 
       copy:
         src: mystaticfile
         dest: /home/suri/myfolder
+
     - name: copy myindex.j2 into nodeside
       template:
           src: myindex.j2
           dest: /var/www/html/index.html
-    - handlers:
+
+  handlers:
     - name: restartwebserver   
       service:
            name: apache2
