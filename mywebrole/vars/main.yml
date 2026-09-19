@@ -2,5 +2,5 @@
 ---
 # vars file for mywebrole
 mywebrole_var1: "this is mywebrole varible1"
-mywebserver_var: "nagios"
+mywebserver_var: "apache2"
 
